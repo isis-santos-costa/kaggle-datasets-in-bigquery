@@ -20,7 +20,7 @@ ___
 
 ⇒ &nbsp; Sample Kaggle Dataset used here: [« **Marketing Funnel by Olist** » *8k leads, closed deals and connection to 100k orders*](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist?select=olist_marketing_qualified_leads_dataset.csv)  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↳ related to [« **Brazilian E-Commerce Public Dataset by Olist** » *100,000 orders with product, customer and reviews info*](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↳ related to [« **Brazilian E-Commerce Public Dataset by Olist** » *100k orders with product, customer and reviews info*](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↳ and to [« **Joining Marketing Funnel with Brazilian E-Commerce** » *Python*](https://www.kaggle.com/code/andresionek/joining-marketing-funnel-with-brazilian-e-commerce)  
 
