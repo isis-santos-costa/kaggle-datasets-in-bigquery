@@ -29,6 +29,9 @@ ___
 
 
 ## Step 1 • Download the dataset from Kaggle  
+
+![01---download-from-kaggle](https://user-images.githubusercontent.com/58894233/235338962-611022c8-9694-4cd0-82b7-b06d7c38c0bc.png)
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
