@@ -18,61 +18,61 @@ ___
 
 ## 📍 Sample Kaggle Dataset: *Marketing Funnel by Olist*  
 
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
 
 ## Step 1 • Download the dataset from Kaggle  
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
 
 ## Step 2 • On BigQuery: create a project / select a project  
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
 
 ## Step 3 • Click [ +ADD ]  
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
 
 ## Step 4 • Click [ Local file | Upload a local file ]  
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
 
 ## Step 5 • CREATE NEW DATASET / Choose from loaded datasets  
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
 
 ## Step 6 • Create dataset | Set a Dataset ID | Set expiration if applicable  
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
 
 ## Step 7 • CREATE TABLE --> Select file  
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
 
 ## Step 8 • CREATE TABLE --> Set a Table Name  
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
 
 ## Step 9 • CREATE TABLE --> Header rows to skip = 1  
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
 
 ## Step 10 • CREATE TABLE --> Add fields, defining the SCHEMA  
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
 
 ## ✔️  TABLE CREATED  
-<br> [🡅](README.md#use-kaggle-dataset-in-bigquery)   
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
