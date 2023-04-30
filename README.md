@@ -115,6 +115,11 @@ ___
 
 
 ## ✔️  TABLE CREATED  
+
+![CHECK---table-created---1---schema](https://user-images.githubusercontent.com/58894233/235340282-9efd10a0-1624-428f-9a59-30b35552ce9d.png)  
+
+![CHECK---table-created---2---preview](https://user-images.githubusercontent.com/58894233/235340288-16c4c9c7-9d9e-42c3-8bef-84e88143b911.png)  
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
