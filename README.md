@@ -37,6 +37,9 @@ ___
 
 
 ## Step 2 • On BigQuery: create a project / select a project  
+
+![02---create-project---or---select-a-project](https://user-images.githubusercontent.com/58894233/235339015-6a9f2609-5719-49fd-a306-ac96a78df5b0.png)
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
