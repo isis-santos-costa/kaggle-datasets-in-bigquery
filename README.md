@@ -2,7 +2,7 @@
 ☁️ use kaggle datasets in bigquery ☁️
 
 ## Steps
-[📍 Sample Kaggle Dataset: *Marketing Funnel by Olist*](#-sample-kaggle-dataset-marketing-funnel-by-olist)  
+[📍 Kaggle Dataset used in this repository: « Marketing Funnel by Olist »](#-kaggle-dataset-used-in-this-repository--marketing-funnel-by-olist-)  
 [Step &nbsp; 1 • Download the dataset from Kaggle](#step-1--download-the-dataset-from-kaggle)  
 [Step &nbsp; 2 • On BigQuery: create a project / select a project](#step-2--on-bigquery-create-a-project--select-a-project)  
 [Step &nbsp; 3 • Click [ +ADD ] ](#step-3--click--add-)  
@@ -16,7 +16,7 @@
 [✔️  TABLE CREATED](#%EF%B8%8F--table-created)  
 ___
 
-## 📍 Sample Kaggle Dataset: *Marketing Funnel by Olist*  
+## 📍 Kaggle Dataset used in this repository: « Marketing Funnel by Olist »  
 
 Kaggle Dataset used in this repository:  
 &nbsp;&nbsp;↳ [« **Marketing Funnel by Olist** » *8k leads, closed deals and connection to 100k orders*](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist?select=olist_marketing_qualified_leads_dataset.csv) (License: CC BY-NC-SA 4.0)  
