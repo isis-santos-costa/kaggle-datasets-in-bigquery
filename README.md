@@ -1,5 +1,5 @@
 # use-kaggle-dataset-in-bigquery
-☁️ use kaggle datasets in bigquery ☁️ Isis Santos Costa • 2023
+☁️ use kaggle datasets in bigquery ☁️
 
 ## Steps
 [📍 Sample Kaggle Dataset: *Marketing Funnel by Olist*](#-sample-kaggle-dataset-marketing-funnel-by-olist)  
