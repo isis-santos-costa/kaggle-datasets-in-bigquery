@@ -69,6 +69,9 @@ ___
 
 
 ## Step 6 • Create dataset | Set a Dataset ID | Set expiration if applicable  
+
+![06---create-dataset---set-id---set-expiration-if-applicable](https://user-images.githubusercontent.com/58894233/235339219-3a56e505-5cd0-4d5f-b0c2-a12896773eaa.png)
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
