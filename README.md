@@ -1,4 +1,4 @@
-# use-kaggle-dataset-in-bigquery
+# kaggle-datasets-in-bigquery
 ☁️ use kaggle datasets in bigquery ☁️
 
 ## Steps
