@@ -77,6 +77,9 @@ ___
 
 
 ## Step 7 • CREATE TABLE --> Select file  
+
+![07---create-table---select-file](https://user-images.githubusercontent.com/58894233/235339276-ca9a20c4-18d6-40bf-bbf2-1e17888f52e7.png)
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
