@@ -45,6 +45,9 @@ ___
 
 
 ## Step 3 • Click [ +ADD ]  
+
+![03---add](https://user-images.githubusercontent.com/58894233/235339052-0e6f1c6a-185e-4626-8dc0-e47dbd698491.png)
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
