@@ -101,6 +101,15 @@ ___
 
 
 ## Step 10 • CREATE TABLE --> Add fields, defining the SCHEMA  
+
+![10---add-fields-defining-the-schema](https://user-images.githubusercontent.com/58894233/235339496-a4181234-f7af-4fa2-b837-2fc9b81eb560.png)  
+
+https://user-images.githubusercontent.com/58894233/235339638-a701d673-747d-45cf-8d59-235a8b5a22ec.mp4  
+
+https://user-images.githubusercontent.com/58894233/235340051-a221f2f9-f954-4229-bac5-5f9f7c0b1553.mp4  
+
+![10---CHECK---create-table](https://user-images.githubusercontent.com/58894233/235340134-10646f91-79eb-495e-aaf8-276c10fd25b0.png)  
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
