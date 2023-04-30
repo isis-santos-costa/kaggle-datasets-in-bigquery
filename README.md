@@ -93,6 +93,9 @@ ___
 
 
 ## Step 9 • CREATE TABLE --> Header rows to skip = 1  
+
+![09---create-table---header-rows-to-skip-equals-1](https://user-images.githubusercontent.com/58894233/235339398-658095f4-e70a-4835-a478-947a88207b42.png)
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
