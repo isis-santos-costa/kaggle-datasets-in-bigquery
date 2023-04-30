@@ -53,6 +53,9 @@ ___
 
 
 ## Step 4 • Click [ Local file | Upload a local file ]  
+
+![04---local-file---upload-a-local-file](https://user-images.githubusercontent.com/58894233/235339112-4dd20774-fb30-44bc-b059-f6b1a4a0e288.png)
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
