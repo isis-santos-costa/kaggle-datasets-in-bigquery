@@ -61,6 +61,9 @@ ___
 
 
 ## Step 5 • CREATE NEW DATASET / Choose from loaded datasets  
+
+![05---create-new-dataset---or---choose-from-loaded-datasets](https://user-images.githubusercontent.com/58894233/235339152-a61bbaf0-f438-4af1-ae83-12d51b0eccfa.png)
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
