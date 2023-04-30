@@ -85,6 +85,9 @@ ___
 
 
 ## Step 8 • CREATE TABLE --> Set a Table Name  
+
+![08---create-table---set-a-table-name](https://user-images.githubusercontent.com/58894233/235339345-bc71ab02-4e81-4a7e-8834-e7f205a42620.png)
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
