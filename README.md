@@ -120,6 +120,7 @@ ___
 
 ![CHECK---table-created---2---preview](https://user-images.githubusercontent.com/58894233/235340288-16c4c9c7-9d9e-42c3-8bef-84e88143b911.png)  
 
+<br> SQL:  
 ``` sql
 SELECT
   origin
@@ -128,6 +129,7 @@ FROM `ecommerce-olist.olist.olist_marketing_qualified_leads_dataset`
 GROUP BY origin 
 ORDER BY 2 desc;
 ```
+[File](bq_kaggle_table_query.sql) | [On BigQuery](https://console.cloud.google.com/bigquery?sq=244453036884:7b6c0fe8dc2c4b3fb5f92554d66e5a8a) <br>
 
 ![CHECK---table-created---3---query-results](https://user-images.githubusercontent.com/58894233/235341232-fe0a86e0-116d-4cb4-8094-d4974c41a395.png)
 
