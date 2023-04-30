@@ -120,6 +120,17 @@ ___
 
 ![CHECK---table-created---2---preview](https://user-images.githubusercontent.com/58894233/235340288-16c4c9c7-9d9e-42c3-8bef-84e88143b911.png)  
 
+``` sql
+SELECT
+  origin
+  , count(origin) 
+FROM `ecommerce-olist.olist.olist_marketing_qualified_leads_dataset` 
+GROUP BY origin 
+ORDER BY 2 desc;
+```
+
+![CHECK---table-created---3---query-results](https://user-images.githubusercontent.com/58894233/235341232-fe0a86e0-116d-4cb4-8094-d4974c41a395.png)
+
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
