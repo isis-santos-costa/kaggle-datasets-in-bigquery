@@ -120,6 +120,10 @@ ___
 
 ↳ Try changing Field Type from `DATE` to `DATETIME`  
 
+![11---TROUBLESHOOTING---1](https://user-images.githubusercontent.com/58894233/235556509-69aa815f-9980-4063-9695-492214bb43c8.png)  
+
+![11---TROUBLESHOOTING---1---date-to-datetime](https://user-images.githubusercontent.com/58894233/235556513-0bb7f7f2-dbf0-4b36-a534-edf30e04f650.png)  
+
 <br>
 
 ### Troubleshooting 2 • « CSV table references column position 6, but line starting at position:1765 contains only 5 columns »  
