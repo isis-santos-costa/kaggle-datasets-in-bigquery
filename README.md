@@ -13,6 +13,7 @@
 [Step &nbsp; 8 • CREATE TABLE --> Set a Table Name](#step-8--create-table----set-a-table-name)  
 [Step &nbsp; 9 • CREATE TABLE --> Header rows to skip = 1](#step-9--create-table----header-rows-to-skip--1)  
 [Step 10 • CREATE TABLE --> Add fields, defining the SCHEMA](#step-10--create-table----add-fields-defining-the-schema)  
+[🧐  TROUBLESHOOTING](#-troubleshooting)  
 [✔️  TABLE CREATED](#%EF%B8%8F--table-created)  
 ___
 
@@ -112,6 +113,28 @@ https://user-images.githubusercontent.com/58894233/235340051-a221f2f9-f954-4229-
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
 
+
+## 🧐 TROUBLESHOOTING
+
+### Troubleshoting 1 • « Date could not be parsed »  
+
+↳ Try changing Field Type from `DATE` to `DATETIME`  
+
+<br>
+
+### Troubleshoting 2 • « CSV table references column position 6, but line starting at position:1765 contains only 5 columns »  
+(soon)
+<!-- ↳ This may be caused by commas `,` in fields of comma-separated value (.csv) tables -->
+
+<!-- ![11---TROUBLESHOOTING---2](https://user-images.githubusercontent.com/58894233/235549392-9f6ec4c3-ddbd-4ee0-b9b2-dcce24c19270.png)  -->
+
+<!-- ![11---TROUBLESHOOTING---2---tsv---1-gsheets](https://user-images.githubusercontent.com/58894233/235549736-010907d0-6110-4cbb-b5f0-9cdef13e3769.png)  -->
+
+
+
+
+<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+___
 
 ## ✔️  TABLE CREATED  
 
