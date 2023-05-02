@@ -116,7 +116,9 @@ ___
 
 ## 🧐 TROUBLESHOOTING
 
-### Troubleshooting 1 • « Date could not be parsed »  
+### Troubleshooting 1 • Date parsing  
+Message:  
+« Could not parse '2018-01-18 0:00:00' as DATE for field review_creation_date (position 5) starting at location 122 with message 'Unable to parse' »  
 
 ↳ Try changing Field Type from `DATE` to `DATETIME`  
 
