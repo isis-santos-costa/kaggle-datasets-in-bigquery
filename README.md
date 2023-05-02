@@ -2,7 +2,7 @@
 ☁️ use kaggle datasets in bigquery ☁️
 
 ## Steps
-[📍 Kaggle Dataset used in this repository: « Marketing Funnel by Olist »](#-kaggle-dataset-used-in-this-repository--marketing-funnel-by-olist-)  
+[📍 Kaggle Dataset used in this repository: « Marketing Funnel by Olist »](#-kaggle-datasets-used-in-this-repository--marketing-funnel-by-olist-)  
 [Step &nbsp; 1 • Download the dataset from Kaggle](#step-1--download-the-dataset-from-kaggle)  
 [Step &nbsp; 2 • On BigQuery: create a project / select a project](#step-2--on-bigquery-create-a-project--select-a-project)  
 [Step &nbsp; 3 • Click [ +ADD ] ](#step-3--click--add-)  
@@ -17,12 +17,12 @@
 [✔️  TABLE CREATED](#%EF%B8%8F--table-created)  
 ___
 
-## 📍 Kaggle Dataset used in this repository: « Marketing Funnel by Olist »  
+## 📍 Kaggle Datasets used in this repository: « Marketing Funnel by Olist »  
 
-Kaggle Dataset used in this repository:  
-&nbsp;&nbsp;↳ [__« Marketing Funnel by Olist » *8k leads, closed deals and connection to 100k orders*__](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist?select=olist_marketing_qualified_leads_dataset.csv) (License: CC BY-NC-SA 4.0)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↳ related to [« Brazilian E-Commerce Public Dataset by Olist » *100k orders with product, customer and reviews info*](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↳ and to [« Joining Marketing Funnel with Brazilian E-Commerce » *Python*](https://www.kaggle.com/code/andresionek/joining-marketing-funnel-with-brazilian-e-commerce)  
+Kaggle Datasets used in this repository (License: CC BY-NC-SA 4.0):  
+&nbsp;&nbsp;↳ [__« Brazilian E-Commerce Public Dataset by Olist » *100k orders with product, customer and reviews info*__](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), and  
+&nbsp;&nbsp;↳ [__« Marketing Funnel by Olist » *8k leads, closed deals and connection to 100k orders*__](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist?select=olist_marketing_qualified_leads_dataset.csv)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↳ related to [« Joining Marketing Funnel with Brazilian E-Commerce » *Python*](https://www.kaggle.com/code/andresionek/joining-marketing-funnel-with-brazilian-e-commerce)  
 
 <br> [🡅](#use-kaggle-dataset-in-bigquery)   
 ___
@@ -116,13 +116,13 @@ ___
 
 ## 🧐 TROUBLESHOOTING
 
-### Troubleshoting 1 • « Date could not be parsed »  
+### Troubleshooting 1 • « Date could not be parsed »  
 
 ↳ Try changing Field Type from `DATE` to `DATETIME`  
 
 <br>
 
-### Troubleshoting 2 • « CSV table references column position 6, but line starting at position:1765 contains only 5 columns »  
+### Troubleshooting 2 • « CSV table references column position 6, but line starting at position:1765 contains only 5 columns »  
 (soon)
 <!-- ↳ This may be caused by commas `,` in fields of comma-separated value (.csv) tables -->
 
