@@ -19,7 +19,7 @@ ___
 
 ## Troubleshooting items
 [Troubleshooting 1 • « Could not parse 'field_value' as DATE for field @field_name »](#troubleshooting-1---could-not-parse-field_value-as-date-for-field-field_name-)  
-[Troubleshooting 2 • « CSV table references column position N+1, but line starting ar position:X contains only N columns »](#troubleshooting-2---csv-table-references-column-position-n1-but-line-starting-ar-positionx-contains-only-n-columns-)  
+[Troubleshooting 2 • « CSV table references column position N+1, but line starting at position:X contains only N columns »](#troubleshooting-2---csv-table-references-column-position-n1-but-line-starting-at-positionx-contains-only-n-columns-)  
 ___
 
 ## 📍 Kaggle Datasets used in this repository: « Marketing Funnel by Olist »  
@@ -135,7 +135,7 @@ Message:
 
 <br>
 
-### Troubleshooting 2 • « CSV table references column position N+1, but line starting ar position:X contains only N columns »  
+### Troubleshooting 2 • « CSV table references column position N+1, but line starting at position:X contains only N columns »  
 
 Message:  
 « CSV table references column position 6, but line starting at position:1765 contains only 5 columns »  
@@ -151,7 +151,7 @@ Message:
 &nbsp;&nbsp; ↳ ❌ Attempt 6 (didn't work): formatting datetime as `YYYY-MM-DD HH:MM:SS`  
 &nbsp;&nbsp; ↳ ❌ Attempt 7 (didn't work): relieving the requirement for a value on the id field
 
-#### Troubleshooting 2 • « CSV table references column position N+1, but line starting ar position:X contains only N columns » (warning)  
+#### Troubleshooting 2 • « CSV table references column position N+1, but line starting at position:X contains only N columns » (warning)  
 ![11---TROUBLESHOOTING---2](https://user-images.githubusercontent.com/58894233/235549392-9f6ec4c3-ddbd-4ee0-b9b2-dcce24c19270.png)  
 <br>
 #### ✅ Attempt 8 (finally: worked!): regex deleting on Google Sheets: paragraph breaks, commas, and double quote marks: \n|,|")  
