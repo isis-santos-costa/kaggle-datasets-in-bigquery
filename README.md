@@ -15,6 +15,11 @@
 [Step 10 • CREATE TABLE --> Add fields, defining the SCHEMA](#step-10--create-table----add-fields-defining-the-schema)  
 [🧐  TROUBLESHOOTING](#-troubleshooting)  
 [✔️  TABLE CREATED](#%EF%B8%8F--table-created)  
+___  
+
+## Troubleshooting items
+[Troubleshooting 1 • « Could not parse 'field_value' as DATE for field @field_name »](#troubleshooting-1---could-not-parse-field_value-as-date-for-field-field_name-)  
+[Troubleshooting 2 • « CSV table references column position N+1, but line starting at position:X contains only N columns »](#troubleshooting-2---csv-table-references-column-position-n1-but-line-starting-at-positionx-contains-only-n-columns-)  
 ___
 
 ## 📍 Kaggle Datasets used in this repository: « Marketing Funnel by Olist »  
@@ -116,25 +121,28 @@ ___
 
 ## 🧐 TROUBLESHOOTING
 
-### Troubleshooting 1 • Date parsing  
+### Troubleshooting 1 • « Could not parse 'field_value' as DATE for field @field_name »  
+
 Message:  
 « Could not parse '2018-01-18 0:00:00' as DATE for field review_creation_date (position 5) starting at location 122 with message 'Unable to parse' »  
 
 ↳ Try changing Field Type from `DATE` to `DATETIME`  
 
+#### Troubleshooting 1 • « Could not parse 'field_value' as DATE for field @field_name » (warning)  
 ![11---TROUBLESHOOTING---1](https://user-images.githubusercontent.com/58894233/235556509-69aa815f-9980-4063-9695-492214bb43c8.png)  
 
 ![11---TROUBLESHOOTING---1---date-to-datetime](https://user-images.githubusercontent.com/58894233/235556513-0bb7f7f2-dbf0-4b36-a534-edf30e04f650.png)  
 
 <br>
 
-### Troubleshooting 2 • CSV has less columns than should
+### Troubleshooting 2 • « CSV table references column position N+1, but line starting at position:X contains only N columns »  
 
 Message:  
 « CSV table references column position 6, but line starting at position:1765 contains only 5 columns »  
 ➥ A possible reason for it is the confusing of rich text commas `,` with delimiting commas in a comma-separated value (.csv) table.  
 ➥ Some approaches have been tried, none having worked so far ( if you know and would like to share the answer, would appreciate to learn it [💬](https://www.linkedin.com/in/isis-santos-costa/) )  
 <!-- ↳ This may be caused by commas `,` in fields of comma-separated value (.csv) tables -->  
+&nbsp;&nbsp; ↳ ✅ Attempt 8 (finally: worked!): regex deleting on Google Sheets: paragraph breaks, commas, and double quote marks: \n|,|")  
 &nbsp;&nbsp; ↳ ❌ Attempt 1 (didn't work): tab separated values (.tsv) table (set as csv with tab delimiter on BigQuery)  
 &nbsp;&nbsp; ↳ ❌ Attempt 2 (didn't work): deleting commas on Google Sheets  
 &nbsp;&nbsp; ↳ ❌ Attempt 3 (didn't work): find and replace blank values by 'unknown' (didn't find)  
@@ -143,23 +151,42 @@ Message:
 &nbsp;&nbsp; ↳ ❌ Attempt 6 (didn't work): formatting datetime as `YYYY-MM-DD HH:MM:SS`  
 &nbsp;&nbsp; ↳ ❌ Attempt 7 (didn't work): relieving the requirement for a value on the id field
 
+#### Troubleshooting 2 • « CSV table references column position N+1, but line starting at position:X contains only N columns » (warning)  
 ![11---TROUBLESHOOTING---2](https://user-images.githubusercontent.com/58894233/235549392-9f6ec4c3-ddbd-4ee0-b9b2-dcce24c19270.png)  
-
-<!-- ![11---TROUBLESHOOTING---2---tsv---1-gsheets](https://user-images.githubusercontent.com/58894233/235549736-010907d0-6110-4cbb-b5f0-9cdef13e3769.png)  -->
-
+<br>
+#### ✅ Attempt 8 (finally: worked!): regex deleting on Google Sheets: paragraph breaks, commas, and double quote marks: \n|,|")  
+![11---TROUBLESHOOTING---2---w---regex-delete-paragraph-breaks-and-commas-and-double-quotes-on-gsheets](https://user-images.githubusercontent.com/58894233/236071045-eec765cf-daa5-4eaf-883b-24bbd64b5b0d.png)  
+<br>
+![11---TROUBLESHOOTING---2---w---1](https://user-images.githubusercontent.com/58894233/236071135-ecc9074d-4766-4942-9f27-0cc4a5513882.png)  
+![11---TROUBLESHOOTING---2---w---2](https://user-images.githubusercontent.com/58894233/236071115-cd2b569f-13f9-4c8f-b639-5cc2f899c004.png)  
+![11---TROUBLESHOOTING---2---w---3](https://user-images.githubusercontent.com/58894233/236071085-a1489589-4467-4d8f-9f7f-41d73e0f98fe.png)  
+<br>
+#### ❌ Attempt 1 (didn't work): tab separated values (.tsv) table (set as csv with tab delimiter on BigQuery)  
 ![11---TROUBLESHOOTING---2---dw-1-tsv---1-gsheets](https://user-images.githubusercontent.com/58894233/235574657-1200d94b-8aae-4c41-beac-83b73b4a85c4.png)  
 ![11---TROUBLESHOOTING---2---dw-1-tsv---2-bq](https://user-images.githubusercontent.com/58894233/235574659-49a2ee83-c7f7-4134-acac-d6a43723f02f.png)  
 ![11---TROUBLESHOOTING---2---dw-1-tsv---3-bq-field-delimiter-tab](https://user-images.githubusercontent.com/58894233/235575125-c89a07c6-59c0-4e01-8fe9-62d93b47390c.png)  
 ![11---TROUBLESHOOTING---2---dw-1-tsv---4-didnt-work](https://user-images.githubusercontent.com/58894233/235574662-aef72f88-ecad-4d3e-84cd-cbae88b33011.png)  
+<br>
+#### ❌ Attempt 2 (didn't work): deleting commas on Google Sheets  
 ![11---TROUBLESHOOTING---2---dw-2-no-commas---1-gsheets](https://user-images.githubusercontent.com/58894233/235574663-33f87df8-384e-4b9c-b00d-db2a1bb6a1e6.png)  
 ![11---TROUBLESHOOTING---2---dw-2-no-commas---2-didnt-work](https://user-images.githubusercontent.com/58894233/235575169-628ce36b-b3c6-4a79-bc48-d26d530c17be.png)  
+<br>
+#### ❌ Attempt 3 (didn't work): find and replace blank values by 'unknown' (didn't find)  
 ![11---TROUBLESHOOTING---2---dw-3-find-replace---1-gsheets](https://user-images.githubusercontent.com/58894233/235575220-a08c9b31-ba63-40c1-8bb6-1c32df21457c.png)  
 ![11---TROUBLESHOOTING---2---dw-3-find-replace---1-gsheets---didnt-find](https://user-images.githubusercontent.com/58894233/235574668-dba6e914-e267-419d-96bc-5933e73c7996.png)  
+<br>
+#### ❌ Attempt 4 (didn't work): use auxiliary columns to raplace blank values by 'unknown': replace, but didn't work  
 ![11---TROUBLESHOOTING---2---dw-4-unknown-aux-col---1-gsheets---PASTE-VALUES](https://user-images.githubusercontent.com/58894233/235574670-14da79f7-6ffb-4906-a28b-2cccd682cd4b.png)  
+<br>
+#### ❌ Attempt 5 (didn't work): change col type from number to text, where appropriate  
 ![11---TROUBLESHOOTING---2---dw-5-col-type-text---1-gsheets](https://user-images.githubusercontent.com/58894233/235574671-5147bd80-4fcf-4025-8e2e-5849c1d925a6.png)  
 ![11---TROUBLESHOOTING---2---dw-5-col-type-text---2-gsheets](https://user-images.githubusercontent.com/58894233/235574673-eadaac1f-432e-4f64-b220-ddfb3a3e191e.png)  
+<br>
+#### ❌ Attempt 6 (didn't work): formatting datetime as `YYYY-MM-DD HH:MM:SS`  
 ![11---TROUBLESHOOTING---2---dw-6-col-type-datetime---1-gsheets](https://user-images.githubusercontent.com/58894233/235574674-655be57a-d7fc-4db8-861e-ef21f5acefed.png)  
 ![11---TROUBLESHOOTING---2---dw-6-col-type-datetime---2-gsheets](https://user-images.githubusercontent.com/58894233/235574675-b02b2c6d-f2c5-40f5-9c93-fe2772cf59da.png)  
+<br>
+#### ❌ Attempt 7 (didn't work): relieving the requirement for a value on the id field
 ![11---TROUBLESHOOTING---2---dw-7-id-nullable---1-bq](https://user-images.githubusercontent.com/58894233/235574653-57553bab-737b-4e8f-97ef-7d6c0c89aed3.png)  
 
 
