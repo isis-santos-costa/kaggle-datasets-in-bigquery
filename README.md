@@ -29,7 +29,7 @@ Kaggle Datasets used in this repository (License: CC BY-NC-SA 4.0):
 &nbsp;&nbsp;↳ [__« Marketing Funnel by Olist » *8k leads, closed deals and connection to 100k orders*__](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist?select=olist_marketing_qualified_leads_dataset.csv)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↳ related to [« Joining Marketing Funnel with Brazilian E-Commerce » *Python*](https://www.kaggle.com/code/andresionek/joining-marketing-funnel-with-brazilian-e-commerce)  
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 
@@ -37,7 +37,7 @@ ___
 
 ![01---download-from-kaggle](https://user-images.githubusercontent.com/58894233/235338962-611022c8-9694-4cd0-82b7-b06d7c38c0bc.png)
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 
@@ -45,7 +45,7 @@ ___
 
 ![02---create-project---or---select-a-project](https://user-images.githubusercontent.com/58894233/235339015-6a9f2609-5719-49fd-a306-ac96a78df5b0.png)
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 
@@ -53,7 +53,7 @@ ___
 
 ![03---add](https://user-images.githubusercontent.com/58894233/235339052-0e6f1c6a-185e-4626-8dc0-e47dbd698491.png)
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 
@@ -61,7 +61,7 @@ ___
 
 ![04---local-file---upload-a-local-file](https://user-images.githubusercontent.com/58894233/235339112-4dd20774-fb30-44bc-b059-f6b1a4a0e288.png)
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 
@@ -69,7 +69,7 @@ ___
 
 ![05---create-new-dataset---or---choose-from-loaded-datasets](https://user-images.githubusercontent.com/58894233/235339152-a61bbaf0-f438-4af1-ae83-12d51b0eccfa.png)
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 
@@ -77,7 +77,7 @@ ___
 
 ![06---create-dataset---set-id---set-expiration-if-applicable](https://user-images.githubusercontent.com/58894233/235339219-3a56e505-5cd0-4d5f-b0c2-a12896773eaa.png)
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 
@@ -85,7 +85,7 @@ ___
 
 ![07---create-table---select-file](https://user-images.githubusercontent.com/58894233/235339276-ca9a20c4-18d6-40bf-bbf2-1e17888f52e7.png)
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 
@@ -93,7 +93,7 @@ ___
 
 ![08---create-table---set-a-table-name](https://user-images.githubusercontent.com/58894233/235339345-bc71ab02-4e81-4a7e-8834-e7f205a42620.png)
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 
@@ -101,7 +101,7 @@ ___
 
 ![09---create-table---header-rows-to-skip-equals-1](https://user-images.githubusercontent.com/58894233/235339398-658095f4-e70a-4835-a478-947a88207b42.png)
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 
@@ -115,7 +115,7 @@ https://user-images.githubusercontent.com/58894233/235340051-a221f2f9-f954-4229-
 
 ![10---CHECK---create-table](https://user-images.githubusercontent.com/58894233/235340134-10646f91-79eb-495e-aaf8-276c10fd25b0.png)  
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 
@@ -133,7 +133,9 @@ Message:
 
 ![11---TROUBLESHOOTING---1---date-to-datetime](https://user-images.githubusercontent.com/58894233/235556513-0bb7f7f2-dbf0-4b36-a534-edf30e04f650.png)  
 
-<br>
+[↑](#kaggle-datasets-in-bigquery)   
+
+#
 
 ### Troubleshooting 2 • « CSV table references column position N+1, but line starting at position:X contains only N columns »  
 
@@ -192,7 +194,7 @@ Message:
 
 
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
 ## ✔️  TABLE CREATED  
@@ -214,6 +216,6 @@ ORDER BY 2 desc;
 
 ![CHECK---table-created---3---query-results](https://user-images.githubusercontent.com/58894233/235341232-fe0a86e0-116d-4cb4-8094-d4974c41a395.png)
 
-<br> [🡅](#use-kaggle-dataset-in-bigquery)   
+[↑](#kaggle-datasets-in-bigquery)   
 ___
 
