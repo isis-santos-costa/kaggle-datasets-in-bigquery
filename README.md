@@ -148,7 +148,7 @@ Message:
 &nbsp;&nbsp; ↳ ❌ Attempt 1 (didn't work): tab separated values (.tsv) table (set as csv with tab delimiter on BigQuery)  
 &nbsp;&nbsp; ↳ ❌ Attempt 2 (didn't work): deleting commas on Google Sheets  
 &nbsp;&nbsp; ↳ ❌ Attempt 3 (didn't work): find and replace blank values by 'unknown' (didn't find)  
-&nbsp;&nbsp; ↳ ❌ Attempt 4 (didn't work): use auxiliary columns to raplace blank values by 'unknown': replace, but didn't work  
+&nbsp;&nbsp; ↳ ❌ Attempt 4 (didn't work): auxiliary columns to replace blanks by 'unknown': replaced, but didn't solve  
 &nbsp;&nbsp; ↳ ❌ Attempt 5 (didn't work): change col type from number to text, where appropriate  
 &nbsp;&nbsp; ↳ ❌ Attempt 6 (didn't work): formatting datetime as `YYYY-MM-DD HH:MM:SS`  
 &nbsp;&nbsp; ↳ ❌ Attempt 7 (didn't work): relieving the requirement for a value on the id field
@@ -192,7 +192,7 @@ Message:
 </details>  
 
 <details>
-<summary><h4> ❌ Attempt 4 (didn't work): use auxiliary columns to raplace blank values by 'unknown': replace, but didn't work</h4></summary>  
+<summary><h4> ❌ Attempt 4 (didn't work): auxiliary columns to replace blanks by 'unknown': replaced, but didn't solve</h4></summary>  
 <img src="https://user-images.githubusercontent.com/58894233/235574670-14da79f7-6ffb-4906-a28b-2cccd682cd4b.png" 
      alt="11---TROUBLESHOOTING---2---dw-4-unknown-aux-col---1-gsheets---PASTE-VALUES">  
 </details>  
