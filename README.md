@@ -1,5 +1,15 @@
-# kaggle-datasets-in-bigquery
-☁️ use kaggle datasets in bigquery ☁️
+[![pull requests](https://img.shields.io/github/issues-pr-closed/isis-santos-costa/kaggle-datasets-in-bigquery?color=brightgreen)](https://github.com/isis-santos-costa/kaggle-datasets-in-bigquery/pulls?q=is%3Apr)
+[![commit activity](https://img.shields.io/github/commit-activity/m/isis-santos-costa/kaggle-datasets-in-bigquery)](https://github.com/isis-santos-costa/kaggle-datasets-in-bigquery/)
+[![Product Data | B2B SaaS | PLG](https://img.shields.io/badge/product%20data%20%7C%20b2b%20saas%20%7C%20plg-%E2%98%95-purple)](https://www.linkedin.com/in/isis-santos-costa/)   
+
+# Kaggle Datasets in BigQuery
+__*☁️ use kaggle datasets in bigquery ☁️*__
+
+This repository shows how to load publicly available datasets from Kaggle into BigQuery.  
+
+Tags: `dataset`, `kaggle`, `bigquery`.  
+
+___
 
 ## Steps
 [📍 Kaggle Dataset used in this repository: « Marketing Funnel by Olist »](#-kaggle-datasets-used-in-this-repository--marketing-funnel-by-olist-)  
