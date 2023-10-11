@@ -4,6 +4,7 @@
 
 # Kaggle datasets into BigQuery
 __*☁️ use kaggle datasets in bigquery • 2023*__
+&nbsp;&nbsp;<img src='https://github.com/isis-santos-costa/growth-marketing/assets/58894233/f07607fb-0030-4d13-9b93-6cbb66a5ef57' height=36 alt='Google-BigQuery' valign='middle'></img>
 
 This repository shows how to load publicly available datasets from Kaggle into BigQuery.  
 
