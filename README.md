@@ -2,7 +2,7 @@
 [![commit activity](https://img.shields.io/github/commit-activity/y/isis-santos-costa/kaggle-datasets-in-bigquery)](https://github.com/isis-santos-costa/kaggle-datasets-in-bigquery/)
 [![Data Analyst](https://img.shields.io/badge/%20data%20analyst-%E2%98%95-purple)](https://www.linkedin.com/in/isis-santos-costa/)   
 
-# Kaggle Datasets in BigQuery
+# Kaggle datasets into BigQuery &nbsp;|&nbsp; Loading and troubleshooting
 __*☁️ use kaggle datasets in bigquery • 2023*__
 
 This repository shows how to load publicly available datasets from Kaggle into BigQuery.  
