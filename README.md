@@ -8,7 +8,7 @@ __*☁️ loading and troubleshooting • 2023*__
 
 This repository shows how to load publicly available datasets from Kaggle into BigQuery.  
 
-Tags: `dataset`, `kaggle`, `bigquery`.  
+Tags: `dataset`, `kaggle`, `bigquery`  
 
 ___
 
